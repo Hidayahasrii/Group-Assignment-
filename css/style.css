@@ -1,0 +1,373 @@
+body{
+  background-color: pink;
+  width: auto;
+}
+.header{
+  width: 99vw;
+  height: 65px;
+  background-color: floralwhite;
+  font-family: monospace;
+  font-size: 110%;
+}
+.top{
+  width: 99vw;
+  height: 75px;
+}
+.fb{
+  background-color: peachpuff;
+  width: 50vw;
+  font-family: monospace;
+  font-size: 150%;
+}
+.product1{
+  background-color: lightgray;
+  width: auto;
+  font-family: monospace;
+  font-size: 150%;
+}
+
+a{
+  color: black;
+  text-decoration-line: none;
+  
+}
+.add1{
+	float: right;
+	position: relative;
+	top: 15%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	  font-family: monospace;
+  font-size: 110%; margin-right: 50px;
+
+}
+.add{
+
+  width: 35px;
+  height: 35px;
+  float: right; 
+  position: relative;
+  top: 30%;
+  left: -7%;
+  transform: translate(-50%, -50%);
+  margin-right: 20px; 
+
+}
+.vd{
+  width: 450px;
+  height: 350px;
+}
+/*#DESIGN FOR IMAGE*/
+* {
+    box-sizing: border-box;
+}
+.slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    width: 498PX;
+    height: 400PX;
+}
+.slowFade .slide img {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5);
+    -webkit-animation: slowFade 32s infinite;
+            animation: slowFade 32s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+}
+.slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+}
+.slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+}
+@keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+/* Slideshow container */
+.bslide{
+  width: 1200px;
+  height: 400px;
+  background-color: sandybrown;
+}
+.slider {
+  width: 500px;
+  height: 300px;
+  margin-left: 12px;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+.image-container {
+  width: 1500px;
+  background-color: pink;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+   transition: left 2s;
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  }
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+
+button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.text button{
+  background-color: black;
+  color: white;
+}
+.text{
+  margin-right: 100px;
+}
+
+button1{
+	background-color:transparent;
+  width: 100vw;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+  font-size: 50px;
+	padding: 13px 300px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+
+
+h6{
+	font-weight: bold;
+	font-size: 20px;
+	color: darkred;
+line-height: 50%;
+
+}
+
+
+.new {
+	width: 100%;
+	padding: 10px 20px;
+	background-color: lightpink;
+	
+}
+
+
+
+
+
+.about{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: lightpink;
+}
+
+
+
+
+
+.product{
+  background-color: lightpink;
+  width: 100%;
+  padding: 10px 0px;
+  font-family: monospace;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 500px;
+	width: 335px;
+	padding: 20px 35px;
+	background: white;
+	border-radius: 20px;
+	border: 2px solid #f9004d;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+
+.pra p{
+	color: red;
+	font-size: 30px;
+	line-height: 50px;
+	margin-bottom: 25px;
+}
+
+
+
+
+.teams{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: lightpink;
+}
+.box1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card1{
+	height: 400px;
+	width: 335px;
+	padding: 20px 35px;
+	background: lightcoral;
+	border-radius: 0px;
+	border: 2px solid #f9004d;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card1 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+
+.pra1 p{
+	color: black;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+
+
+
+
+.contact{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: lightpink;
+}
+.box2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card2{
+	height: 365px;
+	width: 1235px;
+	padding: 0px 35px;
+	background: transparent;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card2 i{
+	font-size: 50px;
+	display: block;
+	text-align: justify;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+
+.pra2 p{
+	color: black;
+	font-size: 35px;
+  text-align: justify;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+
+
+.box3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card3{
+	height: auto;
+	width: 735px;
+	padding: 20px 35px;
+	background: whitesmoke;
+	border-radius: 20px;
+	border: 2px solid #f9004d;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card3 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+
+.pra3 p{
+	color: black;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
